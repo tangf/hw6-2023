@@ -40,7 +40,9 @@ document.querySelector("#skip").addEventListener("click", function() {
         video.currentTime += 10;
     } else {
         video.currentTime = 0; 
+	}
     console.log("Current Time:", video.currentTime.toFixed(0));
+	
 });
 
 document.querySelector("#mute").addEventListener("click", function() {
